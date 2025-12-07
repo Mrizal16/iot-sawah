@@ -150,7 +150,7 @@
     <div class="main">
         <header class="topbar">
             <div>
-                <div style="font-weight:700">Dashboard Sawah (1 lokasi)</div>
+                <div style="font-weight:700">Dashboard Sawah</div>
                 <div style="font-size:.75rem; color:var(--muted)">Rizal – Monitoring hama burung & tikus</div>
             </div>
             <div style="font-size:.75rem; color:var(--muted)">{{ now()->format('d M Y H:i') }} WIB</div>
