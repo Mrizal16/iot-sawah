@@ -57,7 +57,7 @@
                         <b>-</b>
                     @endif
                 </div>
-                <div class="chip">🧭 Sensor-terakhir &nbsp;
+                <div class="chip">🧭 Sensor terakhir &nbsp;
                     @if($last)
                         <b>{{ strtoupper($last->sensor_type) }}</b>
                     @else
