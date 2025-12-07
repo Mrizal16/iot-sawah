@@ -9,7 +9,7 @@
                 <span class="dot {{ $isOnline ? 'success' : 'danger' }}"></span>
                 {{ $isOnline ? 'Perangkat Online' : 'Perangkat Offline' }}
             </div>
-            <h2 style="margin:.5rem 0 0; font-size:1.6rem">Monitoring Sawah – Status Terkini</h2>
+            <h2 style="margin:.5rem 0 0; font-size:1.6rem">Monitoring Sawah  Status Terkini</h2>
             <p style="margin:.4rem 0 0; color:var(--muted); font-size:.9rem">
                 Update terakhir:
                 @if($last)
