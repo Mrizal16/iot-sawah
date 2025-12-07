@@ -40,7 +40,7 @@
 
         <div class="hero-side">
             <div style="display:flex; justify-content:space-between; align-items:center">
-                <div class="chip">🌾 Sawah: <b style="margin-left:6px">Rizal – 1</b></div>
+                <div class="chip">🌾 Sawah: <b style="margin-left:6px">– 1</b></div>
                 <button id="btn-refresh" style="cursor:pointer; padding:8px 12px; border-radius:10px; border:1px solid var(--border); background:rgba(148,163,184,.1); color:#e2e8f0;">
                     🔄 Segarkan
                 </button>
