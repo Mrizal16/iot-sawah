@@ -46,7 +46,7 @@
                 </button>
             </div>
             <div style="font-size:.8rem; color:var(--muted);">
-                Sistem: deteksi burung (RCWL/PIR) → servo; tikus (IR) → buzzer.
+                Sistem: deteksi burung (RCWL) → servo; tikus (PIR) → servo + buzzer.
                 Data dikirim via HTTP POST dari ESP32.
             </div>
             <div style="display:flex; gap:10px; margin-top:8px;">
@@ -88,8 +88,8 @@
                 <canvas id="sensorChart" height="140"></canvas>
                 <div class="legend">
                     <span><i style="background:#4ade80"></i> RCWL (burung)</span>
-                    <span><i style="background:#fde68a"></i> PIR</span>
-                    <span><i style="background:#fca5a5"></i> IR (tikus)</span>
+                    <span><i style="background:#fde68a"></i> PIR (tikus)</span>
+                    <!-- <span><i style="background:#fca5a5"></i> IR (tikus)</span> -->
                 </div>
             </div>
             <div>
