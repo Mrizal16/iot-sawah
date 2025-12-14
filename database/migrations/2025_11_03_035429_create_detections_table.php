@@ -9,7 +9,7 @@ return new class extends Migration {
     {
         Schema::create('detections', function (Blueprint $table) {
             $table->id();
-            $table->string('sensor_type'); // rcwl, pir, ir
+            $table->string('sensor_type'); // rcwl, pir
             $table->boolean('is_daytime')->default(true); // siang/malam
             $table->string('message')->nullable(); // misal: "Burung terdeteksi", "Tikus terdeteksi"
             $table->string('actuator')->nullable(); // servo / buzzer
