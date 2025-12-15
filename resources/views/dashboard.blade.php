@@ -235,6 +235,3 @@
     setInterval(() => location.reload(), 10000);
 </script>
 @endsection
-
-
-p
